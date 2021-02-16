@@ -20,14 +20,14 @@ export const members: Member[] = [
     name: "My Zenn",
     role: "Tech",
     bio: "Designing all of the apps in Foo company.",
-    avatarSrc: "/avatars/zenn.jpg",
+    avatarSrc: "/avatars/mimatin.png",
     sources: ["https://zenn.dev/b1essk/feed"],
   },
   {
     name: "Note",
     role: "Poem",
     bio: "Some texts here",
-    avatarSrc: "/avatars/note.jpg",
+    avatarSrc: "/avatars/mimatin.png",
     sources: ["https://note.com/b1essk/rss"],
   }
 ];
