@@ -8,12 +8,20 @@ export const members: Member[] = [
     avatarSrc: "/avatars/mimatin.png",
     sources: [
       "https://zenn.dev/b1essk/feed",
-      "https://note.com/b1essk/rss",
       "https://qiita.com/Kazuhiro_Mimaki/feed.atom"
     ],
-    includeUrlRegex: "zenn.dev|note.com|qiita.com",
+    includeUrlRegex: "zenn.dev|qiita.com",
     twitterUsername: "b1essk",
     githubUsername: "Kazuhiro-Mimaki",
     websiteUrl: "https://https://mk-portfolio-site.netlify.app/",
+  },
+  {
+    name: "b1essk",
+    role: "Engineer",
+    bio: "徒然なるままにポエムを書きます。",
+    avatarSrc: "/avatars/mimatin.png",
+    sources: ["https://note.com/b1essk/rss"],
+    includeUrlRegex: "note.com",
+    includeTitleRegex: "2021",
   }
 ];
