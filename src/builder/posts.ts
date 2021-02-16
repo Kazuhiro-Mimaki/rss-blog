@@ -44,7 +44,7 @@ async function getFeedItemsFromSources(sources: undefined | string[]) {
 }
 
 async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
-  const { sources, name, includeUrlRegex, excludeUrlRegex } = member;
+  const { sources, name, includeUrlRegex, includeTitleRegex, excludeUrlRegex } = member;
   const feedItems = await getFeedItemsFromSources(sources);
   if (!feedItems) return [];
 
@@ -58,6 +58,12 @@ async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
   if (includeUrlRegex) {
     postItems = postItems.filter((item) => {
       return item.link.match(new RegExp(includeUrlRegex));
+    });
+  }
+  // remove items which not matches includeTitleRegex
+  if (includeTitleRegex) {
+    postItems = postItems.filter((item) => {
+      return item.title.match(new RegExp(includeTitleRegex));
     });
   }
   // remove items which matches excludeUrlRegex

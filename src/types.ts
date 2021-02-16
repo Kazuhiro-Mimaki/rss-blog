@@ -5,6 +5,7 @@ export type Member = {
   bio?: string;
   sources?: string[];
   includeUrlRegex?: string;
+  includeTitleRegex?: string;
   excludeUrlRegex?: string;
   githubUsername?: string;
   twitterUsername?: string;

@@ -17,17 +17,17 @@ export const members: Member[] = [
     websiteUrl: "https://catnose99.com",
   },
   {
-    name: "Zenn",
-    role: "Tech",
-    bio: "Designing all of the apps in Foo company.",
+    name: "b1essk",
+    role: "Engineer",
+    bio: "徒然なるままに記事を書きます。夢は完全に理解すること。",
     avatarSrc: "/avatars/mimatin.png",
-    sources: ["https://zenn.dev/b1essk/feed"],
-  },
-  {
-    name: "Note",
-    role: "Poem",
-    bio: "Some texts here",
-    avatarSrc: "/avatars/mimatin.png",
-    sources: ["https://note.com/b1essk/rss"],
+    sources: [
+      "https://zenn.dev/b1essk/feed",
+      "https://note.com/b1essk/rss"
+    ],
+    includeUrlRegex: "zenn.dev|note.com",
+    twitterUsername: "b1essk",
+    githubUsername: "Kazuhiro-Mimaki",
+    websiteUrl: "https://https://mk-portfolio-site.netlify.app/",
   }
 ];
