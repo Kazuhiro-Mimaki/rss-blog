@@ -27,7 +27,7 @@ export const config = {
     },
     {
       title: "Portfolio",
-      href: "",
+      href: "https://mk-portfolio-site.netlify.app/",
     },
   ],
 };
