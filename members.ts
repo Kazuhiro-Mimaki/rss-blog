@@ -17,7 +17,7 @@ export const members: Member[] = [
     websiteUrl: "https://catnose99.com",
   },
   {
-    name: "My Zenn",
+    name: "Zenn",
     role: "Tech",
     bio: "Designing all of the apps in Foo company.",
     avatarSrc: "/avatars/mimatin.png",
