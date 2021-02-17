@@ -12,21 +12,15 @@ const Page: NextPage = () => {
           <h1 className="about__title">About</h1>
           <div className="about__body">
             <p>
-              このサイトはチームのためのブログスターター
-              <a href="https://github.com/catnose99/team-blog-hub">
-                Team Blog Hub
-              </a>
-              のデモです。ブログのRSSのURLを登録することで、チームメンバーの投稿を一覧にまとめて表示します。
+              このブログは以下のブログ・スターターをForkしてカスタマイズしたものです。
             </p>
             <p>
-              Medium、note、Zenn、Qiita、はてなブログなど、RSSフィードを取得できるサイトであれば、メンバーは好きな場所に投稿できます。
-            </p>
-            <p>
-              詳しくは
               <a href="https://zenn.dev/catnose99/articles/cb72a73368a547756862">
                 チーム個々人のテックブログをRSSで集約するサイトをNext.jsで作った
               </a>
-              をご覧ください。
+            </p>
+            <p>
+              Zenn、Qiita、noteから投稿情報を取得し、一覧にまとめて表示しています。
             </p>
           </div>
           <div className="about__actions">
